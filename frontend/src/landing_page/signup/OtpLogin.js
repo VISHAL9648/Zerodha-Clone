@@ -22,19 +22,16 @@ function OtpLogin() {
         </p>
       </div>
 
-      {/* Image + Signup Form */}
       <div className="row justify-content-center align-items-center">
-        {/* Image Section */}
+        
         <div className="col-lg-6 col-md-12 text-center mb-4">
           <img src="media/signup.png" alt="Signup" className="img-fluid w-75" />
         </div>
 
-        {/* Signup Form Section */}
         <div className="col-lg-6 col-md-12 p-4 text-center">
           <h1 className="mb-2">Signup now</h1>
           <h4 className="text-muted">Or track your existing application</h4>
 
-          {/* Mobile Number Input */}
           <div className="input-group mb-3 mx-auto" style={{ maxWidth: "450px" }}>
             <span className="input-group-text py-3 px-4 fs-5 fw-bold">🇮🇳 +91</span>
             <input
